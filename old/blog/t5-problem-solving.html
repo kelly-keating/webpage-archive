@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../styles/blog.css" rel="stylesheet" type="text/css">
+
+
+  </head>
+    <body>
+      <div class="container">
+
+        <div class="row">
+          <div class="seven columns"><a href="http://kelly-keating.github.io">Kelly</a></div>
+          <div class="five columns">
+            <div class="nav-button">
+              <h5><a href="http://kelly-keating.github.io/blog/about.html">About</a></h5>
+            </div>
+            <div class="nav-button">
+              <h5><a href="http://kelly-keating.github.io/blog/blog-home.html">Blogs</a></h5>
+            </div>
+            <div class="nav-button">
+              <h5><a href="http://kelly-keating.github.io/blog/project-home.html">Projects</a></h5>
+            </div>
+            <div class="nav-button">
+              <h5><a href="http://kelly-keating.github.io/blog/contact-me.html">Contact</a></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="row">
+            <div class="two columns">
+              <h6>26/03/17</h6>
+            </div>
+            <div class="two columns">Home</div>
+          </div>
+          <div class="title">
+            <h1>Problem Solving</h1>
+          </div>
+
+          <div class="row">
+            <h3>Tell your non-tech friend a story about a time you:</h3>
+
+            <h3>Got blocked on a simple problem</h3>
+            <p>This week we had to print out lines of hash symbols, increasing in length as you go down the page, into a sort of triangle shape. This was something similar to stuff I had done before, but for some reason it wasn't printing out a neat triangle, instead increasing by two instead of three (and on another part, adding whole extra lines of hashes before the wanted results). Because the function was relatively simple with only a few steps and a couple variables, and I was confident in the steps that were happening, I knew there was some small, particular issue that was happening to one of my variables.</p>
+            <p>To figure out what was happening I put console.log()s in various parts of my code so I could see what was happenig at each step. While this was a small error that had caused this, the result was rather annoying and working it out wasn't exactly satisfying as it wasn't some major issue that I fixed. It was nice to be able to work it out and move on to more fun things. When I have this problem again It's going to be much easier to work out where the issue is.</p>
+            <h3>Solved a problem in an elegant way</h3>
+            <p>I managed to find a way to simplify thee code for creating a chessboard in a similar exercise. Instead of having a great number of loops and if statements, I have two loops and an if. I took a moment to go through a number of the possibilities and results and found a simple mathematical statement to work out the solution rather than checking each of the values individually (requiring a lot more code). That extra moment to think it through made the coding a lot simpler. This was immensely satisfying.</p>
+            <!--
+            <h3>In both cases:</h3>
+            <h3>What was the problem?</h3>
+            <h3>What problem solving techniques did you use?</h3>
+            <h3>How did you feel throughout the process?</h3>
+            <h3>What did you learn?</h3>
+            !-->
+
+            <h3>Reflect on how confident you feel using the problem solving techniques and process:</h3>
+            <p>Most of these I am very comfortable with (unless otherwise noted) and tend to use them for different stages of coding.</p>
+
+            <p><strong>Pseudocode</strong></p>
+            <p>Very useful for working out a general plan for function structure.</p>
+            <p><strong>Trying something</strong></p>
+            <p>I tend to do this a lot. Particularly when doing simple parts of the code that I generally know how it works but maybe not the specifics. That generally helps me avoid causing terrible errors or infinite loops when trying things.</p>
+            <p><strong>Rubber ducky method<</strong></p>
+            <p>I find this great when you're trying to write a rather complex function. Being able to describe the steps and what should be happening without worrying about the specific code you should be using is very handy when the structure itself is confusing.</p>
+            <p><strong>Reading error messages</strong></p>
+            <p>Even if you don't exactly know what the error message is referencing, error messages are great for telling you what sort of area you should be looking at, what the problem is related to.</p>
+            <p><strong>Console.logging</strong></p>
+            <p>A good starting point when something <em>should</em> work, but it just doesn't seem to. It lets you look at each of the individual steps that is happening, and you can check that against what you expect should be happening</p>
+            <p><strong>Googling</strong></p>
+            <p>I find this very useful when I have a specific problem that I do not know what to do to solve it. Finding documentation on the code or seeing how other people dealt with the problem is a great starting point.</p>
+            <p><strong>Asking your peers for help<</strong></p>
+            <p>I haven't yet had to do this on slack, I've had a couple of conversations where we've talked about general concepts which is great for understanding things, but no specific issues I have had. I don't tend to use this for specific problems, but sometimes it's an issue everyone is having and then it's good for everyone!</p>
+            <p><strong>Asking coaches for help</strong></p>
+            <p>Again, I haven't had any terrible issues yet, but times when I just cannot work out how to deal with a problem I know having someone there who I can go to when all else fails will be great.</p>
+            <p><strong>Improving your process with reflection</strong></p>
+            <p>This isn't something I have been very good at in the past. But these past few weeks I have been trying to embrace this method and have noticed a couple times when I have actually done something in a slightly different fashion after reflecting back on it in previous weeks. So that seems promising :)</p>
+
+
+
+            <h3>Explain to your non-tech friend</h3>
+            <h3>Using the JS Array docs as a starting point, describe what these functions do in your own words:</h3>
+
+            <p><strong>.map()</strong></p>
+            <p>This will take your array, your list of items, do something to each item, and then give you a second list with the results. <!-- So say the function was called makeFancy() which would add a hat to anything you gave it, if your original array you called it on was your household pets the result would be an array of all your pets, in the same order you started, but now they all have hats on! !--></p>
+            <p><strong>.filter()</strong></p>
+            <p>This will take your list, check each item to see if it matches your filter, and then give you a resulting list of everything that worked.</p>
+            <p><strong>.reduce()</strong></p>
+            <p>This will take the items and make them into one? You can use it to take an array of numbers, add them all up to give you one resulting number, to take an array with a bunch of arrays inside and turn it into one array with each of the items in the same order they were in the original, among other things. I'm not too sure how this one works at the moment.</p>
+
+
+          </div>
+
+          <div class="row">
+            <div class="six columns">
+              <h5>back</h5>
+            </div>
+            <div class="six columns">
+              <h5>forth</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="foot-note">Bottom Stuff</div>
+          <div class="links">Linky links</div>
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+body {
+  background-color: #000000;
+  font-family: 'Source Code Pro', monospace;
+  color: #dddddd;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  position: relative;
+  left: 50%;
+  margin-left: -400px;
+  width: 800px;
+  text-align: center;
+  font-size: 5em;
+  font-family: 'Press Start 2P', cursive;
+  color: #f2f2f2;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  margin: 40px;
+}
+
+#app {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -40%;
+  width: 80%;
+  margin-top: 50px;
+}
+
+/* OVERLAY */
+
+#nav-container {
+  position: fixed;
+  z-index: 99;
+  height: 50px;
+  width: 100%;
+  top: 0px;
+  margin-left: -10%;
+  background-color: #232323;
+  border-bottom: #dddddd 2px solid;
+}
+
+#nav-title {
+  position: fixed;
+  left: 150px;
+}
+
+#nav-logo {
+  position: fixed;
+  top: 10px;
+  left: 50px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#nav-buttons {
+  position: fixed;
+  right: 100px;
+  text-align: right;
+}
+
+.nav-butt {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+/* TITLE */
+
+#title-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#title-blurb {
+  margin: 50px;
+  min-height: 300px;
+}
+
+#title-img {
+  width: 300px;
+  float: left;
+  padding-right: 25px;
+}
+
+/* PROJECTS */
+
+#projects-container {
+  padding-bottom: 50px;
+}
+
+#tile-board {
+  text-align: center;
+}
+
+.project-tile {
+  display: inline-block;
+  width: 260px;
+  overflow: hidden;
+  padding: 20px;
+  margin: 10px;
+  background-color: #232323;
+}
+
+.proj-img {
+  width: 260px;
+}
